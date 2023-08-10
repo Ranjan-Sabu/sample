@@ -1,0 +1,37 @@
+body{
+    margin-top: 10px;
+    background-image: url('2.jpg');
+}
+
+.container-fluid{
+    position: fixed;
+    background-color:#557A95;
+}
+
+.container{
+ background-color:#464649;
+ border-radius: 10px;
+ border: 2px solid white;
+ border-width: 8px;
+ border-style: none inset none inset;
+ 
+}
+
+
+.col-md-4{
+    background-color:#343333;
+    border-right: 1px solid black;
+}
+ .javascript{
+    background-color:#343333;
+    border-right: 1px solid black;
+}
+.cprogram{
+    background-color:#343333;
+}
+.form-control{
+    background-color: #DEF2F1;
+}
+.row{
+    margin: 0px 50px 0px 50px;
+}

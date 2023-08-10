@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal website</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="personalwebsite.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+   </script>
+   <script src="personalwebsite.js"></script>
+
+<script type="text/javascript">
+   (function(){
+      emailjs.init("lzkxCkup2UWbI9BRA");
+   })(); 
+</script>
+
+</head>
+<body>
+ 
+  
+    <!--navbar start-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">RANJAN SABU</a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bg-light"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#skills">Skill</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#projects">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav> 
+<!-- navbar end-->
+<!--home section start-->
+<!-- About Section start -->
+<section id="about" class="py-5">
+  <div class="container">
+      <div class="row">
+         <div class="col-lg-3 ">
+            <img src="1.jpg" alt="Your Photo" class="img-fluid rounded-circle w-75 h-75">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="text-white">About  Me</h2>
+            <p class="text-white">I'm Ranjan Sabu,a passionate web developer with a love for crafting creative and user-friendly website.
+             <br> <span class="text-primary">Mobile: 9544581402</span><br>
+             <span class="text-primary">E-mail:ranjansabu6@gmail.com</span> </p>
+             <button type="button" class="btn btn-outline-info"><a href="ranjan sabu-1 (1).pdf"class=" text-decoration-none">Resume</a></button>
+          </div>
+      </div>
+  </div>
+</section>
+<!--about section end-->
+<!--home section end-->
+<!--skill section start-->
+<section id="skills" class="py-5">
+  <div class="containerr">
+      <h1 class="text-center text-white">Skills</h1>
+      <div class="row">
+          <div class="col-md-4">
+              <h4 class="text-light">HTML/CSS</h4>
+              <p class="text-light">HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are the building blocks of web development. HTML is like the skeleton, providing the structure and layout of a web page.These skills allow me to bring ideas to life on the web, ensuring that websites are not only functional but also visually appealing and user-friendly. I love using HTML/CSS to create seamless and enjoyable browsing experiences for visitors, making the web a more vibrant and interactive place.</p>
+          </div>
+          <div class="javascript col-md-4">
+              <h4 class="text-light">JAVASCRIPT</h4>
+              <p class="text-light">JavaScript is a dynamic and powerful programming language that brings interactivity to websites. As a web developer with JavaScript skills, I can make web pages come alive by adding functionality and responsiveness.</p>
+          </div>
+          <div class="cprogram col-md-4">
+              <h4 class="text-light">C </h4>
+              <p class="text-light">C is a powerful and widely-used programming language known for its versatility and efficiency. It serves as a foundational language for many other programming languages and operating systems.C's syntax is relatively simple, making it easy to learn and read. It allows me to work with variables, loops, conditional statements, and functions to perform various tasks. C is widely used in fields like software development, game development, and operating system design.</p>
+          </div>
+      </div>
+  </div>
+</section>
+<!--skill section end-->
+ <!-- Project Section -->
+ <section id="projects" class="py-5">
+  <div class="container">
+      <h2 class="text-center text-white">Projects</h2>
+      <div class="row d-flex justify-content-center">
+          <div class="col-md-4 mb-4">
+                <img src="Screenshot (3).png" class="card-img-top" alt="Project 1">
+                  <div class="card-body">
+                      <h5 class="text-light text-center">LinkedIn Clone</h5> 
+                      <p class="text-light text-center">My recent work</p>
+                  </div>
+          </div>
+       <!-- Add more project cards as needed -->
+      </div>
+  </div>
+</section>
+<!--project section end-->
+ <!-- Contact Section -->
+ <section id="contact" class="py-5">
+  <div class="container">
+      <h2 class="text-center text-white">Contact Me</h2>
+          <div class="form-group">
+             <input type="text" placeholder="Name" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <br>
+            <input type="email" placeholder="E-mail"  class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+             <br>
+              <textarea class="form-control" placeholder="Message" id="message" name="message" rows="4" required></textarea>
+          </div>
+          <br>
+      <button type="submit" class="btn btn-primary"onclick="sendMail()">Send Message</button>
+  </div>
+</section>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+   
+</body>
+</html>
